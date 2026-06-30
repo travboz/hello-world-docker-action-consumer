@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: "Hello world action step"
         id: hello
-        uses: travboz/hello-world-docker-action@latest
+        uses: travboz/hello-world-docker-action@v1.0.6
         with:
           who-to-greet: "Bob The Builder"
 
